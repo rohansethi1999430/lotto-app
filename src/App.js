@@ -11,6 +11,7 @@ function App() {
       <Ball num={23}/>
       <Ball num={69}/> */}
       <Lottery/>
+      <Lottery title='Mini Lottery' maxNum={10} maxBalls={4}/>
     </div>
   );
 }
